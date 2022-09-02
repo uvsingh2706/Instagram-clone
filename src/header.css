@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex; /*bring things in a row  */
+    align-items: center; 
+    justify-content:space-evenly;
+    /* padding: 20px; */
+    /* position: sticky;  */
+    /* top: 0; it is must to have with position   */
+    /* z-index: 100;  
+    background-color: white;  */
+
+    
+}
+ .header__logo{
+   /* height: 30px;
+   margin-left: 5px;
+   object-fit: contain;
+   flex: none; */
+   object-fit: contain;
+   background-color: white;
+   padding: 10px;
+   height: 40px;
+   margin-left: -40px;
+   object-fit: contain;
+   flex: none;
+   cursor: pointer; 
+
+} 
+.header__left{
+    display: flex;
+    
+
+}
+.arrow{
+   margin-top: 18px;
+   margin-left: -12px;
+   cursor: pointer;
+
+}
+
+.header__mid{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+      
+}
+.input{
+    width: 180px;
+}
+ .header__inputbutton{
+    width: 40px !important;
+    background-color: #fafafa; 
+    /* border-left: 1px solid lightgrey;  */
+    /* color: white; */
+} 
+.header__right{
+    display: flex;
+    align-items: center;
+  
+    
+}
+.icon{
+    margin-right: 10px;
+    cursor: pointer;
+} 
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}

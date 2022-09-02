@@ -1,0 +1,30 @@
+.story__section{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 320px;  
+    margin-right: 680px;
+    /* justify-content: space-between; */
+
+}
+.post__avatar{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+.story__username{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.username__styling{
+    font-weight: normal;
+    margin-top: 2px;
+    margin-bottom: 5px;
+
+}
